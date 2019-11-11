@@ -76,6 +76,10 @@
 	    }, 500, function() {
 	    	// window.location.hash = href;
 	    });
+
+			if ( $('#ftco-nav').is(':visible') ) {
+				$('#ftco-nav').removeClass('show');
+			}
 		});
 
 	};
