@@ -5,3 +5,7 @@ function passClick(){
     alert("Invalid Password!");
   }
 }
+
+function hint(){
+  alert("Luggage");
+}
